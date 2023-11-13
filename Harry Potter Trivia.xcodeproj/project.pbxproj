@@ -20,6 +20,19 @@
 		A82ACEB72AFD10F5001D1F44 /* magic-in-the-air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A82ACEAF2AFD10F5001D1F44 /* magic-in-the-air.mp3 */; };
 		A82ACEB82AFD10F5001D1F44 /* deep-in-the-dell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A82ACEB02AFD10F5001D1F44 /* deep-in-the-dell.mp3 */; };
 		A82ACEB92AFD10F5001D1F44 /* page-flip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A82ACEB12AFD10F5001D1F44 /* page-flip.mp3 */; };
+		A82ACEBC2AFD2A40001D1F44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEBB2AFD2A40001D1F44 /* Constants.swift */; };
+		A82ACEBF2AFD2A9D001D1F44 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEBE2AFD2A9D001D1F44 /* Font+Extensions.swift */; };
+		A82ACEC12AFD46B8001D1F44 /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEC02AFD46B8001D1F44 /* Instructions.swift */; };
+		A82ACEC52AFD4797001D1F44 /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEC42AFD4797001D1F44 /* BackgroundImage.swift */; };
+		A82ACEC72AFD4E1B001D1F44 /* Button+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEC62AFD4E1B001D1F44 /* Button+Extensions.swift */; };
+		A82ACEC92AFD4F70001D1F44 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82ACEC82AFD4F70001D1F44 /* Settings.swift */; };
+		A834A32E2AFE78A90077055E /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834A32D2AFE78A90077055E /* GamePlay.swift */; };
+		A894DD102B022C43006F0770 /* ClipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD0F2B022C43006F0770 /* ClipManager.swift */; };
+		A894DD132B023E27006F0770 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD122B023E27006F0770 /* Store.swift */; };
+		A894DD172B025167006F0770 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD162B025167006F0770 /* Question.swift */; };
+		A894DD192B025C62006F0770 /* SampleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD182B025C62006F0770 /* SampleQuestion.swift */; };
+		A894DD1B2B025F5C006F0770 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD1A2B025F5C006F0770 /* GameViewModel.swift */; };
+		A894DD1E2B026FE2006F0770 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A894DD1D2B026FE2006F0770 /* FileManager+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,20 @@
 		A82ACEAF2AFD10F5001D1F44 /* magic-in-the-air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "magic-in-the-air.mp3"; sourceTree = "<group>"; };
 		A82ACEB02AFD10F5001D1F44 /* deep-in-the-dell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deep-in-the-dell.mp3"; sourceTree = "<group>"; };
 		A82ACEB12AFD10F5001D1F44 /* page-flip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "page-flip.mp3"; sourceTree = "<group>"; };
+		A82ACEBB2AFD2A40001D1F44 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A82ACEBE2AFD2A9D001D1F44 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		A82ACEC02AFD46B8001D1F44 /* Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		A82ACEC42AFD4797001D1F44 /* BackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		A82ACEC62AFD4E1B001D1F44 /* Button+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Button+Extensions.swift"; path = "../../../../Documents/Button+Extensions.swift"; sourceTree = "<group>"; };
+		A82ACEC82AFD4F70001D1F44 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A834A32D2AFE78A90077055E /* GamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlay.swift; sourceTree = "<group>"; };
+		A894DD0F2B022C43006F0770 /* ClipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipManager.swift; sourceTree = "<group>"; };
+		A894DD112B023BDF006F0770 /* HPConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HPConfig.storekit; sourceTree = "<group>"; };
+		A894DD122B023E27006F0770 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A894DD162B025167006F0770 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A894DD182B025C62006F0770 /* SampleQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleQuestion.swift; sourceTree = "<group>"; };
+		A894DD1A2B025F5C006F0770 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		A894DD1D2B026FE2006F0770 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +97,14 @@
 			isa = PBXGroup;
 			children = (
 				A82ACE9A2AFD105C001D1F44 /* Harry_Potter_TriviaApp.swift */,
-				A82ACE9C2AFD105C001D1F44 /* ContentView.swift */,
+				A894DD152B02515C006F0770 /* Model */,
+				A894DD1C2B026032006F0770 /* ViewModel */,
+				A82ACEC22AFD4775001D1F44 /* SwiftUIViews */,
+				A82ACEBD2AFD2A8A001D1F44 /* Extensions */,
+				A82ACEBA2AFD2A1F001D1F44 /* Helpers */,
+				A894DD0F2B022C43006F0770 /* ClipManager.swift */,
+				A894DD142B02514B006F0770 /* StoreManager */,
+				A894DD112B023BDF006F0770 /* HPConfig.storekit */,
 				A82ACEA82AFD10DD001D1F44 /* trivia.json */,
 				A82ACE9E2AFD105D001D1F44 /* Assets.xcassets */,
 				A82ACEB02AFD10F5001D1F44 /* deep-in-the-dell.mp3 */,
@@ -92,6 +126,69 @@
 				A82ACEA12AFD105D001D1F44 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A82ACEBA2AFD2A1F001D1F44 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACEBB2AFD2A40001D1F44 /* Constants.swift */,
+				A894DD182B025C62006F0770 /* SampleQuestion.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A82ACEBD2AFD2A8A001D1F44 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACEBE2AFD2A9D001D1F44 /* Font+Extensions.swift */,
+				A82ACEC62AFD4E1B001D1F44 /* Button+Extensions.swift */,
+				A894DD1D2B026FE2006F0770 /* FileManager+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A82ACEC22AFD4775001D1F44 /* SwiftUIViews */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACE9C2AFD105C001D1F44 /* ContentView.swift */,
+				A82ACEC02AFD46B8001D1F44 /* Instructions.swift */,
+				A82ACEC82AFD4F70001D1F44 /* Settings.swift */,
+				A834A32D2AFE78A90077055E /* GamePlay.swift */,
+				A82ACEC32AFD4785001D1F44 /* CustomViews */,
+			);
+			path = SwiftUIViews;
+			sourceTree = "<group>";
+		};
+		A82ACEC32AFD4785001D1F44 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A82ACEC42AFD4797001D1F44 /* BackgroundImage.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A894DD142B02514B006F0770 /* StoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				A894DD122B023E27006F0770 /* Store.swift */,
+			);
+			path = StoreManager;
+			sourceTree = "<group>";
+		};
+		A894DD152B02515C006F0770 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A894DD162B025167006F0770 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A894DD1C2B026032006F0770 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A894DD1A2B025F5C006F0770 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +271,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82ACE9D2AFD105C001D1F44 /* ContentView.swift in Sources */,
+				A82ACEC12AFD46B8001D1F44 /* Instructions.swift in Sources */,
+				A894DD1E2B026FE2006F0770 /* FileManager+Extensions.swift in Sources */,
+				A82ACEC92AFD4F70001D1F44 /* Settings.swift in Sources */,
 				A82ACE9B2AFD105C001D1F44 /* Harry_Potter_TriviaApp.swift in Sources */,
+				A82ACEC72AFD4E1B001D1F44 /* Button+Extensions.swift in Sources */,
+				A834A32E2AFE78A90077055E /* GamePlay.swift in Sources */,
+				A894DD132B023E27006F0770 /* Store.swift in Sources */,
+				A82ACEC52AFD4797001D1F44 /* BackgroundImage.swift in Sources */,
+				A82ACEBF2AFD2A9D001D1F44 /* Font+Extensions.swift in Sources */,
+				A894DD1B2B025F5C006F0770 /* GameViewModel.swift in Sources */,
+				A894DD192B025C62006F0770 /* SampleQuestion.swift in Sources */,
+				A894DD172B025167006F0770 /* Question.swift in Sources */,
+				A82ACEBC2AFD2A40001D1F44 /* Constants.swift in Sources */,
+				A894DD102B022C43006F0770 /* ClipManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct Harry_Potter_TriviaApp: App {
+    @StateObject private var store = Store()
+    @StateObject private var gameViewModel = GameViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(store)
+                .environmentObject(gameViewModel)
+                .task {
+                    await store.loadProducts()
+                    gameViewModel.loadScores()
+                    store.loadStatus()
+                }
         }
     }
 }
